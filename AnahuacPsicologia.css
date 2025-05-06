@@ -1,0 +1,109 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #fc9000, #ffcc66); /* Naranja Anáhuac */
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav .menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav .menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav .menu a:hover {
+    color: #00d9ff;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.header img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.header p {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.content p, .content ul {
+    text-align: justify;
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+.content ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.content ul li {
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin: 8px 0;
+}
+
+footer a {
+    color: #00d9ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

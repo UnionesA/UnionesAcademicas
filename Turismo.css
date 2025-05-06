@@ -1,0 +1,177 @@
+body {
+    font-family: "Courier New", Courier, monospace; 
+    margin: 0;
+    background: linear-gradient(to right, #7cfc98, #5263ff); 
+    color: #0f0f0f;
+}
+
+.encabezado {
+    margin-top: 60px; 
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #7cfc98, #5263ff); 
+    color: #ffffff;
+    border: 2px solid #000000;
+    gap: 50px; 
+}
+
+.encabezado .logo {
+    width: 255px;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.3);
+    margin-right: 20px;
+}
+
+.encabezado-contenido {
+    display: flex;
+    align-items: center;
+}
+
+.texto-encabezado {
+    font-family: "Georgia", serif; 
+    font-style: italic;
+    text-align: justify;
+}
+
+.texto-encabezado,p {
+    font-family: "Georgia", serif; 
+    font-style: italic;
+    text-align: justify;
+    margin-top: 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 30px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 30px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Courier New", Courier, monospace; 
+}
+
+.menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.galeria {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(to right, #7cfc98, #5263ff); 
+}
+
+.galeria h2 {
+    font-family: "Georgia", serif; 
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.contenido {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 2;
+    text-align: justify;
+    font-family: "Courier New", Courier, monospace; 
+}
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content h2 {
+    color:rgb(0, 0, 0);
+        margin-bottom: 10px;
+    }
+
+.carreras {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 190px;
+    height: 190px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card a {
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.mapa {
+    text-align: center;
+    margin: 50px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    font-style: italic; 
+    font-family: "Georgia", serif; 
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    margin: 8px 0;
+}
+
+footer a {
+    color: #66ccff;
+    text-decoration: none;
+    font-style: italic; 
+    font-family: "Georgia", serif;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
