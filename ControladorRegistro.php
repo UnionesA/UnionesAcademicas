@@ -18,7 +18,7 @@ $sql="INSERT INTO informacion (usuario, clave) VALUES ('$usuario', '$clave')";
 if ($conn->query($sql)===TRUE) 
 {
     // Redirigir a la página de inicio de sesión
-    header("Location:Index.html");
+    header("Location:index.html");
     exit();
 } 
 else 

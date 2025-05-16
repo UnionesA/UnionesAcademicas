@@ -18,7 +18,7 @@ $result = $conn->query($sql);
 
 if ($result && $result->num_rows > 0) {
     // Redirige a la página de inicio (cambia 'bienvenido.html' por la que desees)
-    header("Location: Uniones-Academicas.html");
+    header("Location:Uniones-Academicas.html");
     exit();
 } else { 
     echo 'Usuario o contraseña incorrecta'; 
