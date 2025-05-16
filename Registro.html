@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="Registro.css">
+</head>
+<body>
+    <div class="imagen-flotante">
+        <img src="Uniones Academicas.jpg" alt="Usuario">
+    </div>
+    <div class="registro-contenedor">
+        <h2>Registro de Usuario</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+
+            <label>Documentos para inscribirse:</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="documentos" value="Identificación oficial"> Identificación oficial</label>
+                <label><input type="checkbox" name="documentos" value="Comprobante de domicilio"> Comprobante de domicilio</label>
+                <label><input type="checkbox" name="documentos" value="Certificado de estudios"> Certificado de estudios</label>
+                <label><input type="checkbox" name="documentos" value="Acta de nacimiento"> Acta de nacimiento</label>
+                <label><input type="checkbox" name="documentos" value="CURP"> CURP</label>
+                <label><input type="checkbox" name="documentos" value="Constancia de estudios"> Constancia de estudios</label>
+                <label><input type="checkbox" name="documentos" value="Acta de buena conducta"> Acta de buena conducta</label>
+            </div>
+
+            <label>Carrera que desea:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="carrera" value="Gastronomia" required> Gastronomía</label>
+                <label><input type="radio" name="carrera" value="Psicologia"> Psicología</label>
+                <label><input type="radio" name="carrera" value="Turismo"> Turismo</label>
+            </div>
+
+            <label>¿Cuál es la Universidad que deseas?</label>
+            <div class="radio-group">
+                <label><input type="radio" name="universidad" value="utec"> UAEH</label>
+                <label><input type="radio" name="universidad" value="vizcaya"> Vizcaya</label>
+                <label><input type="radio" name="universidad" value="tulancingo"> Tollancingo</label>
+                <label><input type="radio" name="universidad" value="anahuac"> Anáhuac</label>
+                <label><input type="radio" name="universidad" value="lasalle"> UNAM</label>
+            </div>
+
+            <label for="como-encontro">¿Cómo encontraste este sitio web?</label>
+            <select id="como-encontro" name="como-encontro" required>
+                <option value="">Seleccione una opción</option>
+                <option value="amigos">Por Amigos</option>
+                <option value="escuela">Por la escuela</option>
+                <option value="redes">Redes sociales</option>
+                <option value="buscador">Buscador (Google, Bing, etc.)</option>
+                <option value="recomendacion">Recomendación</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <label for="titulo-universitario">Adjunta tu título universitario escaneado:</label>
+            <input type="file" id="titulo-universitario" name="titulo-universitario" accept=".pdf,.jpg,.png">
+
+            <label for="comentario">Escribe un comentario para mejorar nuestro sitio web:</label>
+            <textarea id="comentario" name="comentario" rows="4" placeholder="Agrega un comentario..."></textarea>
+
+            <div class="botones">
+                <button type="submit">Registrarse</button>
+                <button type="reset">Borrar datos</button>
+            </div>
+            <div class="inicia-sesion">
+                ¿Ya tienes cuenta? <a href="#">Inicia sesión</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
